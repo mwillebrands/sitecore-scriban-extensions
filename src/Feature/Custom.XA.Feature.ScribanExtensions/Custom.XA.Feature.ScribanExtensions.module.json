@@ -1,0 +1,21 @@
+{
+  "namespace": "Custom.XA.Feature.ScribanExtensions",
+  "items": {
+    "includes": [
+      {
+        "allowedPushOperations": "createUpdateAndDelete",
+        "database": "master",
+        "name": "Settings",
+        "path": "/sitecore/system/Settings/Feature/Sitecore Scriban Extensions",
+        "scope": "itemAndDescendants"
+      },
+      {
+        "allowedPushOperations": "createUpdateAndDelete",
+        "database": "master",
+        "name": "Templates",
+        "path": "/sitecore/templates/Feature/Sitecore Scriban Extensions",
+        "scope": "itemAndDescendants"
+      }
+    ]
+  }
+}
